@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: #f9f1df;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #293100;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    max-width: 1000px; 
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.perfil {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    
+}
+
+h2 { color: #461204;
+     font-size: 30px;
+
+}
+
+.portfolio {
+    padding: 20px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 17500px;
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 100%; 
+    aspect-ratio: 4 / 5; 
+    object-fit: cover; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+    transform: scale(1.05); 
+}
+
+footer {
+    color: #461204;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+footer a {
+    color: #461204; /* Cor do link (azul) */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+}
+
